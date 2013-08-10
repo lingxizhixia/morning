@@ -37,7 +37,10 @@
       <div height="28" valign="top" class="contact_subject"><span class="header_1">Email</span><br>Add a valid address</div>
       <div><input name="email" type="text" class="text_field"></div>
    </div>
-
+   <div style="padding-top:30px; ">
+      <div height="28" valign="top" class="contact_subject"><span class="header_1">Telephone</span><br>Add a valid Telephone</div>
+      <div><input name="telephone" type="text" class="text_field"></div>
+   </div>
    <div style="padding-top:30px; ">
       <div height="28" valign="top" class="contact_subject"><span class="header_1">Message</span><br>Communicate with us</div>
       <div>
