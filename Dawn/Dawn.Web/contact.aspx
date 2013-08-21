@@ -72,15 +72,15 @@
 	<div class="other_right_box4">
 		<div class="content_header">Details</div>
 		<div class="content"><span class="header_1">Toronto Design Inc.</span> <br>
-		Phone: 900-02364-0000<br>
-        Email: <a href="#" class="blue_link">support@website.com</a><br>
+		Phone: 135-8031-3381<br>
+        Email: <a href="#" class="blue_link">1147936481@qq.com</a><br>
         Address: Kolkata-700101, West Bengal, India</div>
 		
 	</div>
 	<div class="other_right_box3"><div><img src="images/vcard_icon.png"></div>
 	
 	<div class="download_link_position"><a href="#" class="blue_link_large">Download Vcard</a></div>
-	<div class="map_img_frame"><img src="images/map.jpg"></div>
+	<div class="map_img_frame"><img src="images/address.png"></div>
 	</div>
 	
 
