@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Core", "Dawn.Core\Dawn.Core.csproj", "{94E0C317-6261-45A0-8271-336800614A58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn.Common", "Dawn.Common\Dawn.Common.csproj", "{A6E91311-EA6A-4A3C-8DC3-95D9D72C1008}"

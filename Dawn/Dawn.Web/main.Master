@@ -71,7 +71,7 @@ body {
 		<a href="index.aspx" class="nav_link">Home</a>
 		<a href="list.aspx" class="nav_link">Product</a>
 		<a href="service.aspx" class="nav_link">Services</a>
-		<a href="index.aspx" class="nav_link">Blog</a>
+		<a href="blog.aspx" class="nav_link">Blog</a>
             <a href="about.aspx" class="nav_link">About</a>
 		<a href="contact.aspx" class="nav_link">Contact</a>
 		</div>
