@@ -80,7 +80,7 @@
 	<div class="other_right_box3"><div><img src="images/vcard_icon.png"></div>
 	
 	<div class="download_link_position"><a href="#" class="blue_link_large">Download Vcard</a></div>
-	<div class="map_img_frame"><img src="images/address.png"></div>
+	<div class="map_img_frame"><img src="images/address.png" width="261px" height="204px" alt="Guangzhou City, Guangdong Province, China"></div>
 	</div>
 	
 
