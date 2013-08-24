@@ -616,6 +616,14 @@ a.pagination:hover{
 	position: relative;
 	height: 215px;
 }
+.footer_bg2{
+	background-image: url(../images/bb.jpg);
+	background-repeat: repeat;
+	width: 100%;
+	position: relative;
+	height: 215px;
+    background-color:#EFEFEF;
+}
 .footer_left_container{
 	position: absolute;
 	width: 271px;
