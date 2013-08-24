@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ padding:0px; margin:0px; font-size:12px; font-family:"宋体";background: white;}
+ul,li,img,dl,dt,dd{padding:0px; margin:0px; list-style:none; border:0;}
+a:link,a:visited{ color:#333; text-decoration:none;}
+a:hover{ color:#1e53a3; text-decoration:underline;}
+.pro-page{ width:970px; margin:0 auto;}
+.wzpic{ width:968px; height:80px; float:left; border:1px #d7d7d7 solid; line-height:30px; margin-top:10px;}
+.pro-page .wz{ width:968px; height:30px; float:left; border:1px #d7d7d7 solid; line-height:30px; margin-top:10px;}
+.pro-page .wz span{ padding-left:10px; text-align:left;}
+.pro-page .wz a{ color:#cc0000; text-decoration:none;}
+.pro-page .con-left{ width:230px; float: left; margin-top:10px;}
+.pro-page .con-left .ad1{ width:230px;margin-bottom: 10px;border: 1px solid #D8D8D8;}
+.pro-page .con-left .box{ width:228px; border:1px #d7d7d7 solid; float:left;margin-bottom: 10px;}
+.pro-page .con-left .box-title{ width:228px; float:left; height:29px; background:url(../images/pro-detail_14.jpg); border-bottom:1px #d7d7d7 solid;}
+.pro-page .con-left .box-name{ width:78px; height:29px; float:left; line-height:29px; text-align:center; font-size:14px; font-weight:bold; color:#fff; background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_12.jpg);}
+
+.pro-page .con-left .left-hot{ width:200px; float:left; padding-left:14px; padding-bottom:10px;}
+.pro-page .con-left .left-hot ul li{ width:200px; height:61px; float:left; margin-top:10px; padding-bottom:10px; border-bottom:1px dashed #b6b6b6;}
+.pro-page .con-left .left-hot ul li img{ float:left; width:59px; height:59px; border:1px #d8d8d8 solid;}
+.pro-page .con-left .left-info{ float:left; height:61px; width:120px; padding-left:15px; line-height:20px;}
+.pro-page .con-left .left-info .name{width:120px; float:left;  font-weight:bold;}
+.pro-page .con-left .left-info .brand{width:120px; float:left;}
+.pro-page .con-left .left-info .price{width:120px; float:left; color:#cc0000;}
+.pro-page .con-left .ad-tg{ width:228px; padding-bottom:10px; float:left;padding-top: 10px;}
+
+.pro-page .con-right{ width:720px; float: right; margin-top:10px;}
+.pro-page .con-right .right-box{ width:718px; float:left; border:1px #d7d7d7 solid; padding-bottom:10px;}
+.pro-page .con-right .right-show{ width:500px; margin:0 auto;}
+.pro-page .con-right .cp-name{ width:500px; float:left; line-height:50px; text-align:center; font-size:14px; font-weight:bold; color:#cc0000;}
+.pro-page .con-right .cp-pic1{ width:500px; float:left;}
+.pro-page .con-right .cp-pic2{ width:600px; line-height:80px; padding-top:10px; float:left;}
+.pro-page .con-right .cp-pic2 ul li{ width:80px; float:left; padding-right:10px;}
+.pro-page .con-right .cp-pic2 ul li img{ width:78px; height:78px; border:1px #d7d7d7 solid;}
+.pro-page .con-right .cp-pic2 ul li a:hover img{ border:1px #cc0000 solid;}
+.pro-page .con-right .tx{ width:718px; border:1px #d7d7d7 solid; float:left; margin-top:10px; height:66px;}
+.pro-page .con-right .tx-icon{ width:43px; height:60px; float:left; background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_28.jpg); margin-left:10px;}
+.pro-page .con-right .tx-t{ width:647px; padding-top:10px; line-height:24px; font-size:14px; padding-left:10px; color:#ff7600; float:left;} 
+.pro-page .con-right .cp-detail{width:718px; float:left; border:1px #d7d7d7 solid; margin-top:10px;}
+.pro-page .con-right .cp-detail-title{ width:718px;  float:left; height:29px; background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_14.jpg); border-bottom:1px #d7d7d7 solid;}
+.pro-page .con-right .cp-detail-title ul li{ float:left; font-size:14px; font-weight:bold;}
+.pro-page .con-right .title-on{ height:29px; float:left; padding-left:10px; padding-right:10px; line-height:29px; color:#fff; cursor:pointer; border-right:1px #d7d7d7 solid; background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_12.jpg);}
+.pro-page .con-right .title-off{ height:29px; float:left; padding-left:10px; padding-right:10px; line-height:29px;  cursor:pointer; border-right:1px #d7d7d7 solid; color:#666;}
+.pro-page .con-right .cp-con{ width:698px; padding:10px; float:left;}
+.pro-page .con-right .cp-tab{ width:698px; float:left;}
+.pro-page .con-right td{ padding-left:8px; height:28px; line-height:28px;}
+.pro-page .con-right .cp-tab strong{ font-size:14px; color:#1e53a3;}
+.pro-page .con-right .cp-tab span{color:#1e53a3;}
+.pro-page .con-right .cp-tab2{ width:698px; line-height:18px; float:left; border-bottom:1px dashed #d7d7d7; padding-bottom:8px; padding-top:8px;}
+.cp-tab2 img{max-width: 700px;}
+.pro-page .con-right .cp-tab4{ width:698px; line-height:18px; float:left; border-bottom:1px dashed #d7d7d7; padding-bottom:8px; padding-top:8px;}
+.pro-page .con-right .cp-tab4 ul li{ width:172px; float:left; line-height:22px;font-size: 13px;}
+.pro-page .con-right .#e60039{color:red;font-weight: bold;}
+.pro-page .con-right .cp-title{ background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_35.jpg) no-repeat 0 13px; font-size:14px; font-weight:bold; color:#1e53a3; padding-left:15px; padding-top:10px; float:left; width:678px;}
+.pro-page .con-right .cp-tab3{ width:698px; float:left; padding-top:5px;}
+.pro-page .con-right .cp-tab3 ul li{ width:172px; float:left; line-height:22px;font-size: 13px;}
+.pro-page .con-right dl{ width:698px; float:left; border-bottom:1px #e9e9e9 solid; line-height:22px; padding-bottom:5px;}
+.pro-page .con-right dd{width:698px; float:left; color:#b5b5b5; }
+.pro-page .con-right dt{width:698px; float:left;}
+.pro-page .con-right .commentbox{width:676px; float:left; padding:10px; background:#e8f6ff; border:1px #d7d7d7 solid;}
+.pro-page .con-right .post-box{width:676px; float:left;}
+.pro-page .con-right textarea{ 
+    background: none repeat scroll 0 0 #FFFFFF;
+    border:1px #d7d7d7 solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1) inset;
+    float: left;
+    height:60px;
+    line-height: 24px;
+    overflow: auto;
+	padding:4px 10px;
+    width: 654px;
+}
+.pro-page .con-right .input-box{ width:676px; height:21px; padding-top:10px; float:left; line-height:21px;}
+.pro-page .con-right .input-box span{ float:left; padding-right:8px;}
+.pro-page .con-right .input-box input{ float:left;  margin-right:8px;}
+.pro-page .con-right .input-class1{ width:136px; border:1px #d7d7d7 solid; height:17px; line-height:17px;}
+.pro-page .con-right .input-class2{ width:56px; border:1px #d7d7d7 solid; height:17px; line-height:17px;}
+.pro-page .con-right .input-k{ float:left; height:21px; padding-left:5px; font-size:14px;}
+.pro-page .con-right .input-btn{ float:right; height:21px;}
+
+/*右下角广告*/
+#tend-toolbar-bottom {overflow:visible; bottom:0;/*最下*/
+	color: #3E3E3E; right: 0; position: fixed; text-align: left; width: 292px; z-index: 10000; _position:absolute; /* for IE6 */
+	_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight); /* for IE6 */}
+#tend-toolbar-bottom .tend-right { margin: 1px 1px 1px 1px; padding: 1px; border: 1px solid #AC19E3; background-color:white;
+	box-shadow: 0px 0px 1px #000; -moz-box-shadow: 0px 0px 1px #000; -webkit-box-shadow: 0px 0px 1px #000;}
+.tend-right .tend-right-title{line-height: 28px; font-size: 13px; background-color: #AC19E3; color: white; margin-bottom: 1px; font-weight: bold;}
+.tend-right .tend-right-title .tend-right-cell{width: 260px; margin-left: 5px; float: left;}
+.tend-right-title span{width: 255px; margin-left: 5px; float: left;}
+.tend-right .tend-right-title a{font-size: 13px; color: white;}
+.tend-right .tend-right-title a:hover{text-decoration: none; color: white;}
+
+
+
+/* 回到顶部CSS */
+.go{width:47px;height:106px;background-color:#FFF;position:fixed;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||200)-(parseInt(this.currentStyle.marginBottom,10)||0)));right:5px;bottom:270px;border-radius:5px;box-shadow:0 0 2px #6E6E6E}
+.go a{background:url(../../../images/goimg.png) no-repeat;display:block;text-indent:999em;width:37px;margin:5px;border:0;overflow:hidden;float:left}
+.go .top{background-position:0 -2px;height:22px}
+.go .feedback{background-position:0 -23px;height:32px}
+.go .bottom{background-position:0 -57px;height:22px}
+.go .top:hover{background-position:-38px -2px}
+.go .feedback:hover{background-position:-38px -23px}
+.go .bottom:hover{background-position:-38px -57px}
+
+
+
+
+

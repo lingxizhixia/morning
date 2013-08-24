@@ -1,0 +1,213 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ padding:0px; margin:0px; font-size:12px; color:#666; font-family:"宋体";}
+ul,li,dl,dd,em,dt,img,h1{ margin:0px; padding:0px; list-style:none; border:0;}
+a{ color:#666; text-decoration:none;}
+
+.wrap{ width:970px; margin:0 auto; padding:0px;}
+
+.wrap-nav{width:968px; height:40px;background:url(../images/dealer_03.jpg); border-left:1px solid #bccfe7; border-right:1px solid #bccfe7;}
+.wrap-nav-box{font-size:14px; width:948px; padding-top:8px; padding-left:20px; float:left; height:32px;padding-bottom: 0px;}
+.wrap-nav-box ul li{ float:left;}
+.wrap-nav-box .on{ width:92px;float:left;text-align:center;cursor:pointer; background:url(../images/nav-bg.gif);height:32px;font-weight:bold; color:#333; line-height:32px; }
+.wrap-nav-box .off{ width:92px;float:left;text-align:center;cursor:pointer; background:url(../images/icon_06.gif) no-repeat 0px 8px;padding-top:8px;}
+.wrap-nav-box .on a{font-weight: bold;}
+.wrap-nav-box .off a{font-weight: none;}
+.wrap-nav-box .off a:hover{text-decoration: none;}
+.wrap-nav-box .logo{ width:210px; float:left; text-align:left; cursor:pointer; text-align:center; padding-top:1px;height: 30px;}
+
+.wrap-box{width:970px;}
+
+.wrap-left{float:left;width:231px;margin-top: 10px;}
+
+.leftnav{height:69px; width:230px; background:#C5C5C5; padding-top:1px; padding-left:1px;}
+.leftnav a {background-color: #F5F5F5;cursor: pointer;display: inline; float: left; font-family: Arial,Helvetica,sans-serif; height: 22px;  line-height: 22px; margin-bottom: 1px;  margin-right: 1px; text-align: center;width:22px;}
+.leftnav a:link ,.leftnav a:visited{ color:#333; text-decoration:none;}
+.leftnav a:hover{ font-weight:bold; color:#fff; text-decoration:none; background:#4a88d7;}
+.lefttree{overflow-x: hidden; overflow-y: auto; width:230px;border-bottom: 1px solid #C5C5C5;border-right:1px solid #C5C5C5;}
+.tree{ width:213px; float:left; border-left:1px solid #C5C5C5;}
+.tree a:link,.tree a:visited{ color:#666; text-decoration:none;}
+.tree a:hover{ color:#e60039; text-decoration:underline;}
+.tree-title{background: none repeat scroll 0 0 #edf3fd;font: bold 16px/28px Arial, Helvetica, sans-serif; height: 28px;padding-left: 15px;width: 203px; float:left;}
+.left-brand{width:213px; float:left;}
+.left-brand .ct-main{ width:183px; float:left; background:url(http://www.qqddc.com/homeSite/pro/images/list2_07.gif) no-repeat 15px 10px!important; background:url(http://www.qqddc.com/homeSite/pro/images/list2_07.gif) no-repeat 15px 9px; line-height:28px; padding-left:30px; border-bottom:1px #eaeaea solid;}
+.left-brand .ct-sub{ width:210px; float:left; border-bottom:1px #eaeaea solid; padding-bottom:5px;}
+.left-brand .ct-sub ul li{width:180px; float:left; line-height:28px; background:url(../images/list2_11.gif) no-repeat 20px 10px; padding-left:30px; font-size:12px; border-bottom:0px;}
+.span_num{ color:#e60039; font-family:Arial, Helvetica, sans-serif;}
+.span_uncur{font-size: 12px;font-family:Arial, Helvetica, sans-serif;padding-left: 5px;margin-left: 5px;}
+.span_cur{font-size: 12px;color: #e60039;font-weight: bold;font-family:Arial, Helvetica, sans-serif;padding-left: 5px;}
+
+.wrap-right{ width:730px; float:right;margin-top:10px;}
+
+.wrap-right-ad{ width:730px; float:left;margin-top: 0px;}
+.wrap-right-box{ width:728px; border:1px solid #d7d7d7; float:left; margin-top:10px;}
+.wrap-right-box a:link,.wrap-right-box a:visited{color:#0055AA; text-decoration:none;}
+.wrap-right-box a:hover{ color:#eb3d00; text-decoration:underline;}
+.wrap-right-titel{ width:728px; height:31px; background:url(../images/dealer_15.jpg); float:left;}
+.wrap-right-titel span{ float:left; line-height:31px; font-size:14px; font-weight:bold; padding-left:10px;}
+.wrap-right-titel em{ float:right; line-height:31px; padding-right:10px; font-style:normal;}
+
+.wrap-select{padding: 5px ; float:left; width:710px;}
+.wrap-selecttype{ width:710px; padding-top:10px; padding-bottom:10px; border-bottom:1px solid #eeeeee; line-height:24px; float:left;}
+.selctit{ width:60px; float:left; text-align:right;}
+.wrap-selecttype dl{ width:650px; float:left; text-align:center;}
+.wrap-selecttype dd{ float:left; height: 30px;width:auto;}
+.wrap-selecttype dd a{color:#0055AA;float: left; height: 20px;line-height: 20px;margin-right: 10px; padding: 1px 1px 0;}
+.wrap-selecttype dd a:link,.wrap-selecttype dd a:visited{text-decoration:none;}
+.wrap-selecttype dd a:hover{background: none repeat scroll 0 0 #4A87D8; color: #FFFFFF;}
+.wrap-selecttype .cur{background: none repeat scroll 0 0 #4A87D8; color: #FFFFFF; margin-right:10px;color: #e60039;}
+.wrap-brand{ width:710px; height:40px; padding-top:10px; padding-bottom:5px; float:left;}
+.wrap-brand-div{ float:left; height:40px; width:628px;}
+.wrap-brand-div ul li{ float:left; height:40px; display:block; margin-left:8px;}
+.nocur {float:left; margin-right: 25px; line-height: 20px; padding: 1px 3px 0;width: 45px;}
+
+.dealer-list{ width:708px; float:left; padding-left:10px; padding-right:10px;}
+.dealer-list ul li{ width:668px; height:144px; float:left; margin-top:15px; border:1px solid #E4E4E4;padding: 15px 20px 0 20px;}
+.dealer-list .dimg{ width:200px; height:100px; float:left; padding:2px; border:1px solid #d7d7d7;max-height: 150px;}
+.dealer-list .dinfo{ width:440px; float:left; height:106px; padding-left:20px;}
+.dealer-list .dinfo dl{ display: inline;float: left; margin: 0; overflow: hidden; width:378px;}
+.dealer-list .dinfo dt{height: 26px; line-height: 26px; font-size:14px; font-weight:bold;}
+.dealer-list .dbtn{ width:62px; float:left;}
+.dealer-list .dinfo dd{height: 26px; line-height: 26px;}
+.dealer-list .plink{height: 20px; line-height: 20px; width:668px; padding-top:13px; float:left;}
+.dealer-list .plink .more{float: right;}
+.page{ width:688px; padding:20px; float:left; line-height:22px;}
+.page span{ float:left;}
+.page .p-r{ float:right;}
+.page .p-r span{background: none repeat scroll 0 0 #eb3d00; color: #FFFFFF; display: inline-block; margin: 0 2px;
+text-align:center; padding:1px 4px 1px 4px;}
+.page .p-r a{background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC;color: #000000; display: inline-block; margin: 0 2px;  text-decoration: none; padding:0px 4px 0px 4px; text-align:center;}
+.page .p-r a:hover{background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #eb3d00; color: #eb3d00;}
+
+
+.num{font-size: 12px;color: #e60039;}
+
+/*产品*/
+.product-list{width:700px; float:left; padding-left:15px;}
+.product-list ul li{ width:700px; height:106px; margin-top:12px; padding-bottom:12px; border-bottom:1px dashed #cccccc; float:left;}
+.product-list .pro-img{ width:118px; height:106px; padding:1px; float:left; border:1px solid #ccc;}
+.product-list .pro-info{ width:560px; padding-left:15px; float:left;}
+
+
+/*报价*/
+.price-box{ width:728px; border:1px solid #d7d7d7; float:left; margin-top:10px; padding-bottom:10px;}
+.price-bt{ width:715px; height:31px; background:url(../images/price_bg.jpg); float:left; padding-left:13px;}
+.price-bt .on{ width:88px; line-height:31px; background:#fff; border-left:1px #d7d7d7 solid; border-right:1px #d7d7d7 solid; font-weight:bold; color:#3167cb; text-align:center; float:left; cursor:pointer;}
+.price-bt .off{ width:88px; line-height:31px; text-align:center; float:left; cursor:pointer;}
+.price-pro{ width:728px; float:left;}
+.price-pro ul li{ width:128px; float:left; padding-left:14px; margin-top:10px;}
+.price-pic{ width:128px; float:left;}
+.price-pro img{ width:124px; height:84px; border:1px solid #d7d7d7; float:left; padding:1px;}
+.price-name{ width:128px; padding-top:5px; float:left;  font-weight:bold; font-size:12px;}
+.price-jg{ width:128px; float:left; padding-top:5px; color:#e60039; display:block;}
+.new-price{ width:728px; border:1px solid #d7d7d7; float:left; margin-top:10px;}
+.new-price span{ font-size:14px; font-weight:bold; float:left; line-height:31px; color:#333;}
+.new-price-box{width:728px; float:left;}
+.new-price em{ font-style:normal;}
+.new-price .jg{ color:#e60039;}
+.sjyh{ width:458px; border:1px solid #d7d7d7; float:left; margin-top:10px;}
+.sjyh-title{width:458px; height:31px; background:url(../images/price_bg.jpg); float:left; }
+.sjyh-title span{ font-size:14px; font-weight:bold; float:left; line-height:31px; color:#333; padding-left:10px; }
+.sjyh-head{ width:458px; height:26px; border-bottom:1px dashed #aeaeae; float:left; background:url(../images/price_11.jpg); line-height:26px;}
+.t1{ width:280px; float:left; padding-left:10px;}
+.t2{ width:160px; float:right; padding-left:5px;}
+.sjyh-list{ width:458px; float:left;}
+.sjyh-list span{ display: block; float: left;overflow: hidden; padding-right:3px;text-align: left; white-space: nowrap}
+.sjyh-list a{ display: block; float: left;  overflow: hidden;}
+.sjyh-list ul li{ width:458px; height:28px; line-height:28px; border-bottom:1px dashed #aeaeae; float:left;}
+.sjyh-list a{ color:#2562c7; text-decoration:none;}
+.price-ph{ width:258px; border:1px solid #d7d7d7; float:left; margin-top:10px; margin-left:10px;}
+.price-ph-title{width:258px; height:31px; background:url(../images/price_bg.jpg); float:left; }
+.price-ph-title span{ padding-left:10px; font-size:14px; font-weight:bold; float:left; line-height:31px; color:#333;}
+.price-ph-head{ width:258px; height:26px; border-bottom:1px dashed #aeaeae; float:left; background:url(../images/price_11.jpg); line-height:26px;}
+.t3{ width:150px; float:left; padding-left:10px;}
+.t4{ width:90px; float:left; padding-left:5px;}
+.price-ph-list{ width:258px; float:left;}
+.price-ph-list ul li{ width:258px; height:28px; line-height:28px; border-bottom:1px dashed #aeaeae; float:left;}
+.price-ph-list a{ color:#2562c7; text-decoration:none;}
+
+/*品牌大全*/
+.brand-ad{ width:970px; float:left; margin-bottom:10px;}
+.brand-search{ width:968px; height:38px; float:left; border-bottom:1px #bccfe7 solid; border-left:1px #bccfe7 solid; border-right:1px #bccfe7 solid;}
+.brand-search span{ float:left; padding-left:15px; padding-top:14px;}
+.brand-tags{ height:22px; float:left; margin-top:8px;}
+.brand-tags ul li{ float:left; text-align:center; width:22px; height:22px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-right:7px;}
+.brand-tags ul li a:link,.brand-tags ul li a:visited{width:22px; height:22px; display:block; line-height:22px;}
+.brand-tags ul li a:hover{ width:20px; height:20px; display:block; border:1px solid #d7d7d7; color:#e60039; line-height:20px;}
+.brand-box{ width:968px; float:left; margin-top:10px; border:1px solid #d7d7d7; padding-bottom:15px;}
+.brand-table{ width:936px; float:left; border:1px solid #d7d7d7; margin-top:15px; margin-left:15px!important; margin-left:8px;}
+.brand-table-title{ background:#f0f0f0; height:28px; width:936px; border-bottom:1px #d7d7d7 solid; float:left;}
+.brand-table-title span{ color:#e60039; font-size:18px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; padding-left:15px; line-height:28px;}
+.brand-list{ width:936px; float:left; padding-bottom:10px;}
+.brand-list ul li{ width:159px; float:left; padding-left:25px; margin-top:18px;}
+.brand-list ul li img{ width:136px; height:50px; border:1px solid #d7d7d7; float:left; display:block;}
+.brand-list a:hover{ color:#eb3d00; text-decoration:underline;}
+.brand-name{ width:138px; text-align:center; line-height:24px; float:left;}
+/*图库*/
+.pic-title{ width:730px; height:27px; border-bottom:2px solid #4764b0; float:left;}
+.pic-title ul li{ float:left;}
+.pic-on{ width:105px; height:27px; background:url(../images/pic_03.jpg); float:left; text-align:center; line-height:27px; font-size:14px; font-weight:bold; color:#fff; margin-right:3px;}
+.pic-off{ width:103px; height:26px; border-left:#d2daed solid 1px; background:#eaedf6;border-top:#d2daed solid 1px;border-right:#d2daed solid 1px; float:left; text-align:center; line-height:26px; margin-right:3px; font-size:14px;}
+.pic-con{ width:730px; margin-top:10px; float:left;}
+.pic-title a{ color:#666; text-decoration:none;}
+.pic-gg{ width:438px; height:306px; float:left; border:1px solid #d7d7d7; padding:5px;}
+.pic-hot{ width:268px; height:316px; float:left; border:1px solid #d7d7d7; margin-left:10px;}
+.pic-hot-title{ width:268px; height:31px; background:url(../images/dealer_15.jpg); float:left;}
+.pic-hot-title span{ float:left; padding-left:10px; line-height:31px; font-size:14px; font-weight:bold; color:#333;}
+.pic-hot-list{ width:258px; float:left; padding-bottom:8px;}
+.pic-hot-list ul li{ width:75px; float:left; padding-left:10px; padding-top:10px;}
+.pic-hot-list ul li img{ width:73px; height:54px; float:left; border:1px solid #d7d7d7;}
+.pic-brand{ width:248px; font-size:14px; font-weight:bold; border-bottom:1px dashed #d7d7d7; margin-left:10px!important; margin-left:5px; color:#333;  line-height:24px; float:left; padding-top:5px;}
+.pic-brand-list{ width:248px; float:left; padding-left:10px;}
+.pic-brand-list ul li{ width:112px; height:44px;  float:left; padding-top:8px; padding-left:8px;}
+.pic-brand-list ul li img{ border:1px solid #d7d7d7; float:left; display:block;}
+.pic-hot-list em{ float:right; font-style:normal;}
+.pic-new{ width:728px; border:1px #d7d7d7 solid; float:left; margin-top:10px; }
+.pic-new-title{width:728px; height:31px; background:url(../images/dealer_15.jpg); float:left;}
+.pic-new-title .more2{ float:right; line-height:31px; padding-right:10px;}
+.pic-new-title span{ float:left; line-height:31px; padding-left:10px; font-size:14px; font-weight:bold; color:#333;}
+.pic-new-list{ width:728px; float:left; padding-bottom:8px;}
+.pic-new-list ul li{ width:128px; float:left; padding-left:14px; padding-top:15px;}
+.pic-new-list ul li div{width:128px; text-align: center;}
+.pic-new-list ul li div span{line-height: 23px;}
+.pic-new-list img{ width:122px; padding:2px; float:left; border:1px solid #d7d7d7;}
+.pic-new-name{ width:128px; text-align:center; line-height:24px; float:left;}
+.pic-model{ width:726px; padding-bottom:8px; float:left; padding-top:10px; padding-left:2px;}
+.pic-model ul li{ width:144px; float:left; padding-left:30px;}
+.pic-model img{ width:140px; padding:2px; border:1px solid #d7d7d7; float:left;}
+.pic-model-name{ width:166px; line-height:24px; float:left; text-align:center;}
+
+
+/*视频*/
+.video-box{ width:728px; float:left; border:1px solid #d7d7d7;}
+.video-focuspic{ width:350px; height:292px; float:left; padding:10px 0px 10px 10px;}
+.video-tj{ width:345px; float:left; padding-top:10px;}
+.video-box a:hover{ color:#eb3d00; text-decoration:underline;}
+.video-tj ul li{ display: inline; float: left; height:150px; padding-left:30px; width: 141px;}
+.video-tj .pic {border: 1px solid #d7d7d7; height:100px;overflow: hidden;padding: 2px;text-align: center;width: 135px;}
+.video-tj .ititle { line-height:18px; height:40px; text-align:left; padding-top:2px; text-align:center;}
+.video-list{ width:728px; float:left; padding-top:10px;}
+.video-list ul li{ width:155px; float:left; height:145px; padding-left:21px;}
+.video-list ul li img{ width:149px; padding:2px; border:1px solid #d7d7d7;}
+.video-list .video-name{ width:155px; float:left; line-height:20px; text-align:center;}
+.video-d{width:728px; float:left;}
+.video-d ul li{ width:354px; float:left; padding-left:10px;  padding-top:15px;}
+.video-d-img{ width:136px; height:123px; padding:2px; border:1px solid #d7d7d7; float:left;}
+.video-info{ width:190px; float:left; padding-left:10px; line-height:18px;}
+.video-info .v-name{ width:190px; float:left; font-weight:bold; padding-top:5px;}
+.video-info .v-box{ float:left; width:190px; color:#666; padding-top:5px;}
+
+.pic-new{ width:728px; border:1px #d7d7d7 solid; float:left; margin-top:10px; }
+.pic-new-title{width:728px; height:31px; background:url(../images/dealer_15.jpg); float:left;}
+.pic-new-title .more2{ float:right; line-height:31px; padding-right:10px;}
+.pic-new-title span{ float:left; line-height:31px; padding-left:10px; font-size:14px; font-weight:bold; color:#333;}
+.pic-new-list{ width:728px; float:left; padding-bottom:8px;}
+.pic-new-list ul li{ width:128px; float:left; padding-left:14px; padding-top:10px;}
+.pic-new-list img{ width:122px; padding:2px; float:left; border:1px solid #d7d7d7;}
+.pic-new-name{ width:128px; text-align:center; line-height:24px; float:left;}
+
+#slide_b{position:relative;width:350px;height:292px;overflow:hidden; float:left;}
+#slide_b img{width:350px;height:292px;}
+#slide_b .ico_b{position:absolute;right:8px;bottom:6px;}
+#slide_b .ico_b li{background:#fff;float:left;display:block;width:15px;height:15px;line-height:15px;border:1px solid #cecece;font-family:Arial,Helvetica,sans-serif;text-align:center;margin:2px;padding:1px;cursor:pointer;}
+#slide_b .ico_b li.high_b{background:#a40000;color:#fff;font-weight:bolder;}
