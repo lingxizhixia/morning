@@ -105,7 +105,7 @@
         <div class="container">
             <div class="portflio_text"></div>
             <div class="other_banner_header">Duis eget nisl sit amet eros sagittis</div>
-            <div class="banner_content">Cras sed elit ut ipsum rutrum cursus. Morbi volutpat posuere tempus. Suspendisse nec purus ac justo congue dapibus. Sed augue nibh, volutpat iaculis posuere sit amet, luctus eu leo.</div>
+            <div class="banner_content"></div>
         </div>
     </div>
 

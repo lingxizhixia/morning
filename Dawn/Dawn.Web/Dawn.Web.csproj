@@ -92,6 +92,7 @@
     <Content Include="images\bike\IMG_0448.JPG" />
     <Content Include="images\bike\N12.png" />
     <Content Include="images\bike\N28.jpg" />
+    <Content Include="images\favicon.ico" />
     <Content Include="js\bike\homesite_head_js.js" />
     <Content Include="js\bike\jquery.kinslideshow-1.2.1.min.js" />
     <Content Include="js\bike\m.js" />
@@ -232,7 +233,7 @@
     <Content Include="js\_class.noobSlide.packed.js" />
     <Content Include="list.aspx" />
     <Content Include="service.aspx" />
-    <Content Include="unitpngfix.js" />
+    <Content Include="js\unitpngfix.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

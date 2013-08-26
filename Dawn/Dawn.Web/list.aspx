@@ -11,7 +11,7 @@
     <meta name="keywords" content="爱玛电动车,爱玛电动车图片,爱玛电动车怎么样" />
     <meta name="description" content="爱玛电动车图片,爱玛电动车怎么样/质量如何；全球电动车网为消费者提供精准的爱玛电动车,挑选适合您的爱玛电动车" />
     <link href="css/bike/list.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="js/bike/jquery.kinslideshow-1.2.1.min.js" type="text/javascript" defer="defer"></script>
     <%--    <script type="text/javascript" src="../cbjs.baidu.com/js/m.js"></script>--%>
     <script type="text/javascript">
