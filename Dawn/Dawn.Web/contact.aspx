@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div class="contact_middle_content">
+    <div class="contact_middle_content" style="height:550px;">
         <div class="container">
 
             <!-------------------------------------------------------- left box start -------------------------------------------------------->
@@ -49,15 +49,13 @@
             <div class="other_left_box">
                 <div class="content_header">Send Us Your Enquiry</div>
                 <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+                   Dere frends,if you want to know more information about our products, you could give us your truly contact information. As below form, you could fill the blank place with the suggestion nearly. We will contact you as soon as quickly. 
+<font style="color:red">Rejoice alway......</font>
                 </div>
-                <div class="other_left_box3">
 
+                <div class="other_left_box3" style="top:0; margin-top:150px;">
 
-
-
-
-                    <form name="contact" method="POST" action="sendmail.php">
+                    <%--<form name="contact" method="POST" action="sendmail.php">--%>
                         <div width="456" border="0" cellpadding="0" cellspacing="0">
                             <div>
                                 <div height="28" valign="top" class="contact_subject">
@@ -95,15 +93,16 @@
                                     <textarea name="message" class="text_area"></textarea>
                                 </div>
                             </div>
-                            <div style="padding-left: 158px; padding-top: 20px;">
+                            <div style="padding-left: 158px; padding-top: 30px;">
                                 <div valign="top" align="left">
-                                    <input name="submit" type="image" src="images/send_btn.jpg" value="Submit">
+                                    <%--<input name="submit" type="image" src="images/send_btn.jpg" value="Submit"/>--%>
+                                    <a href="#" onclick="alert('Success');"><img src="images/send_btn.jpg" alt="Submit"/></a>
                                 </div>
                             </div>
 
 
                         </div>
-                    </form>
+                   <%-- </form>--%>
 
 
 

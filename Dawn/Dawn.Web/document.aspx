@@ -50,65 +50,24 @@
             <div class="col-lg-3">
                 <div class="coreos-docs-supernav">
                     <ul class="nav">
-                        <li class="active"><a href="/docs/vagrant/">Running on Vagrant</a></li>
-                        <li><a href="/docs/ec2/">Running on Amazon EC2</a></li>
-                        <li><a href="/docs/qemu/">Running on QEMU/KVM</a></li>
-                        <li><a href="/docs/using-coreos/">Using CoreOS</a></li>
-                        <li><a href="/docs/sdk/">Developer SDK Guide</a></li>
-                        <li><a href="/docs/oem/">Notes for distributors</a></li>
-                        <li><a href="https://github.com/coreos/">Github</a></li>
-
-                    </ul>
-                </div>
-                <!--/.coreos-docs-supernav-->
-                <div class="coreos-docs-sidebar">
-                    <ul class="nav coreos-docs-sidenav affix-top">
-                        <li><a href="#download-and-install-vagrant">Download and Install Vagrant</a></li>
-                        <li><a href="#startup-coreos">Startup CoreOS</a></li>
-                        <li><a href="#using-coreos">Using CoreOS</a></li>
+                        <li class="active"><a href="content/doc/bikeinfo.xls">E-Bike Info</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-9">
                 <div class="coreos-docs">
-                    <h1>Running CoreOS on Vagrant</h1>
+                    <h1>E-Bike Basic Infomation</h1>
 
-                    <p>CoreOS is currently in heavy development and actively being tested. These instructions will bring up a single CoreOS instance under Vagrant.</p>
-
-                    <p>You can direct questions to the <a href="irc://irc.freenode.org:6667/#coreos">IRC channel</a> or <a href="https://groups.google.com/forum/#!forum/coreos-dev">mailing list</a>.</p>
+                    <p>This Document Present some common information about our E-bike.If you want to know more basic information about the e-bike,we suggest you to download the document and compare each other.</p>
 
                     <a id="download-and-install-vagrant"></a>
-                    <h2>Download and Install Vagrant</h2>
+                    <h4 style="font-weight: 400;color: #419eda;text-shadow: 0 1px 0 #fff;">Download E-Bike Basic Infomation Document</h4>
 
                     <p>
-                        Vagrant is simple to use command line virtual machine manager. There are
-install packages available for Windows, Linux and OSX. Find the latest
-installer on the <a href="http://downloads.vagrantup.com/">Vagrant downloads page</a>. Be sure to get
-version 1.2.3 or greater.
+                       <a href="content/doc/bikeinfo.xls"><img src="images/downdoc.png" width="60px" height="60px" alt="click here to download..."/></a>
                     </p>
 
-                    <a id="startup-coreos"></a>
-                    <h2>Startup CoreOS</h2>
-
-                    <p>Now that you have vagrant installed you can bring up a CoreOS instance.</p>
-
-                    <p>
-                        The following commands will first grab a Vagrantfile which file tells
-Vagrant where it can find the latest disk image of CoreOS. Then Vagrant
-will download the image and start it for you.
-                    </p>
-
-                    <pre><code>git clone https://github.com/coreos/coreos-vagrant/
-cd coreos-vagrant
-vagrant up
-vagrant ssh
-</code></pre>
-
-                    <a id="using-coreos"></a>
-                    <h2>Using CoreOS</h2>
-
-                    <p>Now that you have a machine booted it is time to play around. Check out the <a href="/docs/using-coreos/">Using CoreOS</a> guide.</p>
-
+                   
                 </div>
                 <!--/.coreos-docs-->
             </div>
