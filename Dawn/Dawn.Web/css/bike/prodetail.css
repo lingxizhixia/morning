@@ -13,7 +13,7 @@ a:hover{ color:#1e53a3; text-decoration:underline;}
 .pro-page .con-left .ad1{ width:230px;margin-bottom: 10px;border: 1px solid #D8D8D8;}
 .pro-page .con-left .box{ width:228px; border:1px #d7d7d7 solid; float:left;margin-bottom: 10px;}
 .pro-page .con-left .box-title{ width:228px; float:left; height:29px; background:url(../images/pro-detail_14.jpg); border-bottom:1px #d7d7d7 solid;}
-.pro-page .con-left .box-name{ width:78px; height:29px; float:left; line-height:29px; text-align:center; font-size:14px; font-weight:bold; color:#fff; background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_12.jpg);}
+.pro-page .con-left .box-name{ width:100px; height:29px; float:left; line-height:29px; text-align:center; font-size:14px; font-weight:bold; color:#fff; background:url(http://www.qqddc.com/homeSite/pro/images/pro-detail_12.jpg);}
 
 .pro-page .con-left .left-hot{ width:200px; float:left; padding-left:14px; padding-bottom:10px;}
 .pro-page .con-left .left-hot ul li{ width:200px; height:61px; float:left; margin-top:10px; padding-bottom:10px; border-bottom:1px dashed #b6b6b6;}

@@ -11,16 +11,7 @@
                 <a href="home.aspx">Home</a>
             </li>
              <li>
-                <a href="list.aspx">Service</a>
-            </li>
-            <li>
-                <a href="document.aspx">Documentation</a>
-            </li>
-          <%--  <li>
-                <a href="http://coreos.com/blog/">Blog</a>
-            </li>--%>
-            <li>
-                <a href="about.aspx">About</a>
+                <a href="list.aspx">Product</a>
             </li>
             <li>
                 <a href="contact.aspx">Contact</a>

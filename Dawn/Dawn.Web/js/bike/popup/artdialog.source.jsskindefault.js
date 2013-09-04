@@ -902,7 +902,7 @@ var artDialog = function (config, ok, cancel) {
 
 artDialog.fn = artDialog.prototype = {
 
-	version: '4.1.6',
+	version: '',
 	
 	closed: true,
 	

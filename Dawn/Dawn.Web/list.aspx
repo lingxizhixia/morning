@@ -113,16 +113,7 @@
                 <a href="home.aspx">Home</a>
             </li>
             <li class="active">
-                <a href="list.aspx">Service</a>
-            </li>
-            <li>
-                <a href="document.aspx">Documentation</a>
-            </li>
-            <%--  <li>
-                <a href="http://coreos.com/blog/">Blog</a>
-            </li>--%>
-            <li>
-                <a href="about.aspx">About</a>
+                <a href="list.aspx">Product</a>
             </li>
             <li>
                 <a href="contact.aspx">Contact</a>
@@ -163,8 +154,6 @@
 
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-                <title>产品品牌-全球电动车网</title>
-
                 <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
 
                 <link href="/css/bike/cp-css.css" rel="stylesheet" type="text/css" />
@@ -177,34 +166,34 @@
 
                     <div class="tree">
 
-                        <div class="tree-title" id="a"><a name="" id="A1"></a>产品列表</div>
+                        <div class="tree-title" id="a"><a name="" id="A1"></a>Product List</div>
 
                         <div class="left-brand">
 
 
-                            <div id="main" class="ct-main"><a href="/bike/bike1.aspx"><span class="span_uncur">KD2610Z-G</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="main" class="ct-main"><a href="/bike/bike1.aspx"><span class="span_uncur">KD2610Z-G</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="sub" style="display: none;"></div>
 
-                            <div id="Div1" class="ct-main"><a href="/bike/bike2.aspx"><span class="span_uncur">KDZ-2610Z-P</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div1" class="ct-main"><a href="/bike/bike2.aspx"><span class="span_uncur">KDZ-2610Z-P</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div2" style="display: none;"></div>
 
-                            <div id="Div3" class="ct-main"><a href="/bike/bike3.aspx"><span class="span_uncur">KDZ-2609Z-G</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div3" class="ct-main"><a href="/bike/bike3.aspx"><span class="span_uncur">KDZ-2609Z-G</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div4" style="display: none;"></div>
 
 
-                            <div id="Div5" class="ct-main"><a href="/bike/bike4.aspx"><span class="span_uncur">KD2609Z-P</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div5" class="ct-main"><a href="/bike/bike4.aspx"><span class="span_uncur">KD2609Z-P</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div6" style="display: none;"></div>
 
-                            <div id="Div7" class="ct-main"><a href="/bike/bike5.aspx"><span class="span_uncur">KD7004Z</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div7" class="ct-main"><a href="/bike/bike5.aspx"><span class="span_uncur">KD7004Z</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div8" style="display: none;"></div>
 
-                            <div id="Div9" class="ct-main"><a href="/bike/bike6.aspx"><span class="span_uncur">KD7001Z</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div9" class="ct-main"><a href="/bike/bike6.aspx"><span class="span_uncur">KD7001Z</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div10" style="display: none;"></div>
 
-                            <div id="Div11" class="ct-main"><a href="/bike/bike7.aspx"><span class="span_uncur">KD2603Z</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div11" class="ct-main"><a href="/bike/bike7.aspx"><span class="span_uncur">KD2603Z</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div12" style="display: none;"></div>
 
-                            <div id="Div13" class="ct-main"><a href="/bike/bike8.aspx"><span class="span_uncur">KD2608Z</span>&nbsp;<span class="span_num">(154)</span></a></div>
+                            <div id="Div13" class="ct-main"><a href="/bike/bike8.aspx"><span class="span_uncur">KD2608Z</span>&nbsp;<span class="span_num"></span></a></div>
                             <div class="ct-sub" id="Div14" style="display: none;"></div>
 
                         </div>
@@ -240,11 +229,11 @@
 
 
                         <div class="top-page">
-                            当前第 <font color="#e60039">1</font>/ 1 页&nbsp;
+                            Current Page:<font color="#e60039">1</font>/ 1 &nbsp;
 								
 								
-								<a href="#">下页</a>&nbsp;
-								<a href="#">末页</a>&nbsp;
+								<a href="#">Next</a>&nbsp;
+								<a href="#">Last</a>&nbsp;
                         </div>
                     </div>
                     <div class="product-list">
@@ -285,7 +274,7 @@
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
                                                 <span>
-                                                    <button onclick="window.top.location='/bike/bike1.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                    <a href="/bike/bike1.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -327,7 +316,7 @@
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
                                                 <span>
-                                                   <button onclick="window.top.location='/bike/bike2.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                    <a href="/bike/bike2.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -368,8 +357,8 @@
                                             <td height="30"></td>
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
-                                                   <span>
-                                                   <button onclick="window.top.location='/bike/bike3.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                <span>
+                                                    <a href="/bike/bike3.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -411,8 +400,8 @@
                                             <td height="30"></td>
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
-                                                    <span>
-                                                   <button onclick="window.top.location='/bike/bike4.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                <span>
+                                                    <a href="/bike/bike4.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -455,8 +444,8 @@
                                             <td height="30"></td>
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
-                                                    <span>
-                                                 <button onclick="window.top.location='/bike/bike5.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                <span>
+                                                    <a href="/bike/bike5.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -498,8 +487,8 @@
                                             <td height="30"></td>
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
-                                                   <span>
-                                                  <button onclick="window.top.location='/bike/bike6.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                <span>
+                                                    <a href="/bike/bike6.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -541,8 +530,8 @@
                                             <td height="30"></td>
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
-                                                   <span>
-                                                    <button onclick="window.top.location='/bike/bike7.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                <span>
+                                                    <a href="/bike/bike7.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -584,8 +573,8 @@
                                             <td height="30"></td>
                                             <td height="30"></td>
                                             <td align="right" valign="middle">
-                                                   <span>
-                                                    <button onclick="window.top.location='/bike/bike8.aspx'" style="width:80px; height:25px;">+ Detail</button>
+                                                <span>
+                                                    <a href="/bike/bike8.aspx" style="color: #0094de">Detail >></a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -599,11 +588,11 @@
                         </ul>
                     </div>
                     <div class="page">
-                        <span>当前第 <font color="#e60039">1</font>/ 1 页</span>
+                        <span>Current Page:<font color="#e60039">1</font>/ 1 </span>
                         <div class="p-r">
 
-                            <a href="#">下&nbsp;页</a>
-                            <a href="#">末&nbsp;页</a>
+                            <a href="#">Next</a>
+                            <a href="#">Last</a>
                         </div>
                     </div>
                 </div>
@@ -643,7 +632,7 @@
     <!--Footer end-->
 
 
-<%--
+    <%--
     <!-- 右下角广告 END -->
 
 
@@ -665,6 +654,4 @@
         window.setInterval("heartBeat()", 10);
     </script>
     <!-- 车型对比  end -->--%>
-
-
 </asp:Content>

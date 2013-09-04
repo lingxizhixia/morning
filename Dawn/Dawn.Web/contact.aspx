@@ -5,25 +5,16 @@
 
 <asp:Content ID="ContentMenu" runat="server" ContentPlaceHolderID="ContentPlaceHolderMenu">
 
-    <div class="nav-collapse collapse coreos-nav-collapse">
+   <div class="nav-collapse collapse coreos-nav-collapse">
         <ul class="nav navbar-nav">
             <li>
-                <a href="home.aspx">Home</a>
-            </li>
-             <li>
-                <a href="home.aspx">Service</a>
-            </li>
-            <li>
-                <a href="document.aspx">Documentation</a>
-            </li>
-          <%--  <li>
-                <a href="http://coreos.com/blog/">Blog</a>
-            </li>--%>
-            <li>
-                <a href="about.aspx">About</a>
+                <a href="/home.aspx">Home</a>
             </li>
             <li class="active">
-                <a href="contact.aspx">Contact</a>
+                <a href="/list.aspx">Product</a>
+            </li>
+            <li>
+                <a href="/contact.aspx">Contact</a>
             </li>
         </ul>
     </div>
@@ -48,12 +39,11 @@
 
             <div class="other_left_box">
                 <div class="content_header">Send Us Your Enquiry</div>
-                <div class="content">
-                   Dere frends,if you want to know more information about our products, you could give us your truly contact information. As below form, you could fill the blank place with the suggestion nearly. We will contact you as soon as quickly. 
-<font style="color:red">Rejoice alway......</font>
-                </div>
+              <%--  <div class="content">
+                 
+                </div>--%>
 
-                <div class="other_left_box3" style="top:0; margin-top:150px;">
+                <div class="other_left_box3" style="top:0; margin-top:80px;">
 
                     <%--<form name="contact" method="POST" action="sendmail.php">--%>
                         <div width="456" border="0" cellpadding="0" cellspacing="0">

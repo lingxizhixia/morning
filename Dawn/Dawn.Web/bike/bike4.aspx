@@ -3,13 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>晨光贸易</title>
-    <meta name="keywords" content="可胜、可胜价格、可胜图片、爱玛电动车官方网、可胜报价表" />
-    <meta name="description" content="爱玛电动车，加盟代理爱玛电动车，全球电动车网为代理商、消费者提供精准的可胜官方网报价表，挑选适合您的电动车" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <link href="/css/bike/prodetail.css" type="text/css" rel="stylesheet" />
     <link href="/css/bike/cp-css.css" type="text/css" rel="stylesheet" />
 
-    <script type="text/javascript" src="/js/bike/popup/artdialog.source.jsskindefault.js"></script>
+    <%--<script type="text/javascript" src="/js/bike/popup/artdialog.source.jsskindefault.js"></script>--%>
     <script type="text/javascript" src="/js/bike/popup/_doc/demo.js"></script>
     <script type="text/javascript" src="/js/bike/popup/plugins/iframetools.source.js"></script>
     <script type="text/javascript" src="/js/bike/popup/_doc/highlight/highlight.pack.js"></script>
@@ -69,29 +68,19 @@
         }
     </script>
 
-    <link href="/css/bike/top120910.css" rel="stylesheet" type="text/css"></link>
+    <link href="/css/bike/top120910.css" rel="stylesheet" type="text/css"/>
     <script language="javascript" src="/js/bike/homesite_head_js.js"></script>
 
 </asp:Content>
 
 <asp:Content ID="ContentMenu" runat="server" ContentPlaceHolderID="ContentPlaceHolderMenu">
-
-    <div class="nav-collapse collapse coreos-nav-collapse">
+  <div class="nav-collapse collapse coreos-nav-collapse">
         <ul class="nav navbar-nav">
             <li>
                 <a href="/home.aspx">Home</a>
             </li>
             <li class="active">
-                <a href="/list.aspx">Service</a>
-            </li>
-            <li>
-                <a href="/document.aspx">Documentation</a>
-            </li>
-            <%--  <li>
-                <a href="http://coreos.com/blog/">Blog</a>
-            </li>--%>
-            <li>
-                <a href="/about.aspx">About</a>
+                <a href="/list.aspx">Product</a>
             </li>
             <li>
                 <a href="/contact.aspx">Contact</a>
@@ -118,12 +107,11 @@
         </div>
         <!-- 一号位 -->
 
-
         <div class="con-left">
 
             <div class="box">
                 <div class="box-title">
-                    <div class="box-name">热卖车型</div>
+                    <div class="box-name">Hot >></div>
                 </div>
                 <div class="left-hot">
                     <ul>
@@ -134,8 +122,8 @@
                                 <img src="../images/bike/2002.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike1.aspx" target="_blank">KD2610Z-G</a></div>
-                                <div class="brand">品牌：KD2610Z-G</div>
-                                <div class="price">报价：3190-3390</div>
+                                <div class="brand">Brand：KD2610Z-G</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -144,8 +132,8 @@
                                 <img src="../images/bike/bike8.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike2.aspx" target="_blank">KDZ-2610Z-P</a></div>
-                                <div class="brand">品牌：KDZ-2610Z-P</div>
-                                <div class="price">报价：2590-2790</div>
+                                <div class="brand">Brand：KDZ-2610Z-P</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -154,8 +142,8 @@
                                 <img src="../images/bike/DSC02357.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike3.aspx" target="_blank">KDZ-2609Z-G</a></div>
-                                <div class="brand">品牌：KDZ-2609Z-G</div>
-                                <div class="price">报价：3070-3360</div>
+                                <div class="brand">Brand：KDZ-2609Z-G</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -164,8 +152,8 @@
                                 <img src="../images/bike/DSC02398.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike4.aspx" target="_blank">KD2609Z-P</a></div>
-                                <div class="brand">品牌：KD2609Z-P</div>
-                                <div class="price">报价：3500-3700</div>
+                                <div class="brand">Brand：KD2609Z-P</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -176,7 +164,7 @@
             <!--left相关车型-->
             <div class="box">
                 <div class="box-title">
-                    <div class="box-name">相关车型</div>
+                    <div class="box-name">Relevant >></div>
                 </div>
                 <div class="left-hot">
                     <ul>
@@ -187,8 +175,8 @@
                                 <img src="../images/bike/DSC02441.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike5.aspx" target="_blank">KD7004Z</a></div>
-                                <div class="brand">品牌：KD7004Z</div>
-                                <div class="price">报价：1970-2170</div>
+                                <div class="brand">Brand：KD7004Z</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -197,8 +185,8 @@
                                 <img src="../images/bike/DSC02455.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="pro.doid5331.htm" target="_blank">KD7001Z</a></div>
-                                <div class="brand">品牌：KD7001Z</div>
-                                <div class="price">报价：1880-2080</div>
+                                <div class="brand">Brand：KD7001Z</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -207,8 +195,8 @@
                                 <img src="../images/bike/IMG_0445.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike7.aspx" target="_blank">KD2603Z</a></div>
-                                <div class="brand">品牌：KD2603Z</div>
-                                <div class="price">报价：3250-3450</div>
+                                <div class="brand">Brand：KD2603Z</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -217,8 +205,8 @@
                                 <img src="../images/bike/IMG_0448.JPG" width="59" height="59" /></a>
                             <div class="left-info">
                                 <div class="name"><a href="/bike/bike8.aspx" target="_blank">KD2608Z</a></div>
-                                <div class="brand">品牌：KD2608Z</div>
-                                <div class="price">报价：3350-3550</div>
+                                <div class="brand">Brand：KD2608Z</div>
+                                <div class="price">Price：$</div>
                             </div>
                         </li>
 
@@ -232,11 +220,11 @@
         <div class="con-right">
             <div class="right-box">
                 <div class="right-show">
-                    <div class="cp-name">KD2610Z-G FOB：459 Euro</div>
+                    <div class="cp-name">KD2609Z-P  FOB:432 EURO</div>
                     <div class="cp-pic1">
 
                         <li style="display: block;">
-                            <img src="../images/bike/2002.JPG" id="bigImg" style="max-width: 500px;" alt="KD2610Z-G FOB：459 Euro" /></li>
+                            <img src="../images/bike/DSC02441.JPG" id="bigImg" style="max-width: 500px;" alt="KD2609Z-P  FOB:432 EURO" /></li>
                     </div>
                     <div class="cp-pic2">
                         <ul>
@@ -247,7 +235,7 @@
             <div class="tx">
                 <div class="tx-icon"></div>
                 <div class="tx-t">
-                    全球电动车网以上报价以各地经销商报价平均价格为准，供消费者参考，因电动车价格受区域、促销活动等不定因素影响，如与你当地电动车价格有出入，请以当地价格为准。
+                     All Pictures For Reference Only
                 </div>
             </div>
             <!--详细-->
@@ -265,7 +253,7 @@
                             <table width="698" border="1" cellpadding="0" cellspacing="1" style="background: rgb(232, 246, 255); display: table; border-color: #d7d7d7; border-width: 1px;">
                                 <tr>
                                     <td height="28" colspan="2" align="center" bgcolor="#e8f6ff">
-                                        <strong>KD2610Z-G&nbsp;-Electric System</strong>
+                                        <strong>KD2609Z-P&nbsp;-Electric System</strong>
                                     </td>
                                 </tr>
                                 <tr>
@@ -287,7 +275,7 @@
 
                                 <tr>
                                     <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Battery</span></td>
-                                    <td width="181" height="28" bgcolor="#FFFFFF">Option:  36V 15Ah Li-ion battery</td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">Option:  36V 10Ah Li-ion battery</td>
                                 </tr>
 
                                 <tr>
@@ -309,8 +297,8 @@
                                     <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Range</span></td>
                                     <td width="181" height="28" bgcolor="#FFFFFF">
                                         <p>
-                                            e-bike mode 50-60km<br />
-                                            Pedaling-Electric mode 80-100km
+                                            e-bike mode 35-45km<br />
+                                            Pedaling-Electric mode 50-80km
                                         </p>
                                     </td>
                                 </tr>
@@ -322,12 +310,12 @@
 
                                 <tr>
                                     <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Weight</span></td>
-                                    <td width="181" height="28" bgcolor="#FFFFFF">Li-ion battery4.5 kgs</td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">Li-ion battery3.3kgs</td>
                                 </tr>
 
                                 <tr>
                                     <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">N.W./G.W.</span></td>
-                                    <td width="181" height="28" bgcolor="#FFFFFF">27kgs/31.5kgs</td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">26kgs/30.5kgs</td>
                                 </tr>
 
                                 <tr>
@@ -356,8 +344,24 @@
                             <table width="698" border="1" cellpadding="0" cellspacing="1" style="background: rgb(232, 246, 255); display: table; border-color: #d7d7d7; border-width: 1px;">
                                 <tr>
                                     <td height="28" colspan="2" align="center" bgcolor="#e8f6ff">
-                                        <strong>KD2610Z-G&nbsp;-Components</strong>
+                                        <strong>KD2609Z-P&nbsp;-Components</strong>
                                     </td>
+                                </tr>
+                                    <tr>
+                                    <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Frame</span></td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">Al Alloy 6061</td>
+                                </tr>
+                                  <tr>
+                                    <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Tyres</span></td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">20"×1.95", puncture resistant K-shield</td>
+                                </tr>
+                                  <tr>
+                                    <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Rim</span></td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">Al Alloy twin wall and CNC side wal</td>
+                                </tr>
+                                  <tr>
+                                    <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Spokes</span></td>
+                                    <td width="181" height="28" bgcolor="#FFFFFF">13g steel</td>
                                 </tr>
                                 <tr>
                                     <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Brakes(front)</span></td>
@@ -365,7 +369,7 @@
                                 </tr>
                                 <tr>
                                     <td width="78" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Brakes(Rear)</span></td>
-                                    <td width="161" height="28" bgcolor="#FFFFFF">V brakes
+                                    <td width="161" height="28" bgcolor="#FFFFFF">Disc
                                     </td>
                                 </tr>
 
@@ -384,21 +388,6 @@
 
                                 <tr>
                                     <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Handle bars</span></td>
-                                    <td width="181" height="28" bgcolor="#FFFFFF">≤25Km/h</td>
-                                </tr>
-
-                                <tr>
-                                    <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Range</span></td>
-                                    <td width="181" height="28" bgcolor="#FFFFFF">
-                                        <p>
-                                            e-bike mode 50-60km<br />
-                                            Pedaling-Electric mode 80-100km
-                                        </p>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td width="72" height="28" bgcolor="#e8f6ff"><span style="color: #ff7600; font-weight: bold">Load capacity</span></td>
                                     <td width="181" height="28" bgcolor="#FFFFFF">Al Alloy</td>
                                 </tr>
 
