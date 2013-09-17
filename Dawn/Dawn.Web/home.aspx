@@ -1,6 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="Dawn.Web.home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>3D Gallery with CSS3 and jQuery</title>
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" type="text/css" href="/3DGallery/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="/3DGallery/css/style.css" />
+    <script type="text/javascript" src="/3DGallery/js/modernizr.custom.53451.js"></script>
 </asp:Content>
 
 <asp:Content ID="ContentMenu" runat="server" ContentPlaceHolderID="ContentPlaceHolderMenu">
@@ -10,7 +18,7 @@
             <li class="active">
                 <a href="home.aspx">Home</a>
             </li>
-             <li>
+            <li>
                 <a href="list.aspx">Product</a>
             </li>
             <li>
@@ -19,41 +27,52 @@
         </ul>
     </div>
 
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <!-- Page content of course! -->
-    <div class="masthead hexagons">
-        <div class="container">
-            <h1>A new way to think about servers</h1>
-            <a href="https://coreos.wufoo.com/forms/z7x4m1/" class="btn btn-large btn-primary masthead-action" onclick="window.open(this.href,  null, &#39;height=1039, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1&#39;); return false">Join the Developer Alpha</a>
-            <p class="button-subtext">CoreOS is Linux for massive server deployments</p>
+    <section id="dg-container" class="dg-container" style="margin:120px;">
+        <div class="dg-wrapper">
+            <a href="/bike/bike1.aspx" target="_blank">
+                <img src="/images/bike/2002.JPG" alt="image01" width="480" height="260"/><div>KD2610Z-G </div>
+            </a>
+            <a href="/bike/bike2.aspx" target="_blank">
+                <img src="/images/bike/DSC02357.JPG" alt="image02" width="480" height="260"/><div>KDZ-2610Z-P </div>
+            </a>
+            <a href="/bike/bike3.aspx" target="_blank">
+                <img src="/images/bike/DSC02398.JPG" alt="image03" width="480" height="260"/><div>KDZ-2609Z-G </div>
+            </a>
+            <a href="/bike/bike4.aspx" target="_blank">
+                <img src="/images/bike/DSC02441.JPG" alt="image04" width="480" height="260"/><div>KD2609Z-P </div>
+            </a>
+            <a href="/bike/bike5.aspx" target="_blank">
+                <img src="/images/bike/DSC02455.JPG" alt="image05" width="480" height="260"/><div>KD7004Z </div>
+            </a>
+            <a href="/bike/bike6.aspx" target="_blank">
+                <img src="/images/bike/IMG_0445.JPG" alt="image06" width="480" height="260"/><div>KD7001Z</div>
+            </a>
+            <a href="/bike/bike7.aspx" target="_blank">
+                <img src="/images/bike/IMG_0448.JPG" alt="image07" width="480" height="260"/><div>KD2603Z</div>
+            </a>
+            <a href="/bike/bike8.aspx" target="_blank">
+                <img src="/images/bike/2002.JPG" alt="image08" width="480" height="260"/><div>KD2608Z</div>
+            </a>
         </div>
-        <!--/.container-->
-    </div>
-    <!--/.masthead-->
+     	<nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 value-prop">
-                <h3>Minimal</h3>
-                <p><strong>Linux kernel + systemd.</strong> That's about it. CoreOS has just enough bits to run containers, but does not ship a package manager itself. In fact, the root partition is completely read-only, to guarantee consistency and make updates reliable.</p>
-            </div>
-            <!--/col-lg-4-->
-            <div class="col-lg-4 value-prop">
-                <h3>Docker compatible</h3>
-                <p><strong>Built for running containers.</strong> Use docker as a package manager to build and push your app. The primitive of an application is a container, not a one-off package. Build containers using docker, by hand, or however you see fit!</p>
-            </div>
-            <!--/col-lg-4-->
-            <div class="col-lg-4 value-prop">
-                <h3>Service discovery</h3>
-                <p><strong>Clustered by default.</strong> Built in service discovery and configuration sharing using the Raft distributed consensus algorithm. CoreOS is made for companies building platforms.</p>
-            </div>
-            <!--/col-lg-4-->
-        </div>
-        <!--/.row-->
-    </div>
-    <!--/.container-->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/3DGallery/js/jquery.gallery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#dg-container').gallery({
+                autoplay: true
+            });
+        });
+		    </script>
 
 </asp:Content>

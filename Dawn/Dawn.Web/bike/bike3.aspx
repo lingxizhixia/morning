@@ -93,12 +93,10 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="masthead hexagons" style="height: 150px">
+    <div class="masthead hexagons" style="height: 50px">
         <div class="container">
-            <div class="portflio_text"></div>
-            <div class="other_banner_header">Duis eget nisl sit amet eros sagittis</div>
-            <div class="banner_content">
-            </div>
+            <div class="other_banner_header"></div>
+            <div class="banner_content"></div>
         </div>
     </div>
 

@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Dawn.Web.contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <link rel="stylesheet" type="text/css" href="/3DGallery/css/demo.css" />
 </asp:Content>
 
 <asp:Content ID="ContentMenu" runat="server" ContentPlaceHolderID="ContentPlaceHolderMenu">
@@ -10,10 +11,10 @@
             <li>
                 <a href="/home.aspx">Home</a>
             </li>
-            <li class="active">
+            <li>
                 <a href="/list.aspx">Product</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="/contact.aspx">Contact</a>
             </li>
         </ul>
@@ -23,92 +24,60 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="masthead hexagons" style="height: 150px">
-        <%--banner_band_other--%>
+   <div class="masthead hexagons" style="height: 50px;padding:0px;">
         <div class="container">
-            <div class="contact_text"></div>
-            <div class="other_banner_header">Duis eget nisl sit amet eros sagittis</div>
+            <div class="other_banner_header"></div>
             <div class="banner_content"></div>
         </div>
     </div>
 
-    <div class="contact_middle_content" style="height:550px;">
+    <div class="contact_middle_content" style="height:550px; margin:50px;">
         <div class="container">
+
+            	<header>
+				<h1>Name <span>: Joanna</span></h1>
+				<h1>Email <span>: jadeou99@gmail.com</span></h1>
+                    <h1>Telephone <span>: +86 15666558312</span></h1>
+                    <br />
+                     <div class="map_img">
+                            <img src="images/address.png" width="280" height="204" alt=""/></div>
+			</header>
 
             <!-------------------------------------------------------- left box start -------------------------------------------------------->
 
-            <div class="other_left_box">
-                <div class="content_header">Send Us Your Enquiry</div>
-              <%--  <div class="content">
-                 
-                </div>--%>
+         <%--   <div class="other_left_box" style="text-align:center;width:100%;">
+                <div class="other_left_box3" style="top:0; text-align:center;width:100%;">
+                    <div class="contact_list" style="text-align:left;margin-left: 25%">
 
-                <div class="other_left_box3" style="top:0; margin-top:80px;">
+                            <header>
+                           <h1>Name </h1> ： Joanna
+                                </header>
 
-                    <%--<form name="contact" method="POST" action="sendmail.php">--%>
-                        <div width="456" border="0" cellpadding="0" cellspacing="0">
-                            <div>
-                                <div height="28" valign="top" class="contact_subject">
-                                    <span class="header_1">Name</span><br>
-                                    Add your name
-                                </div>
-                                <div>
-                                    <input name="name" type="text" class="text_field">
-                                </div>
-                            </div>
-                            <div style="padding-top: 30px;">
-                                <div height="28" valign="top" class="contact_subject">
-                                    <span class="header_1">Email</span><br>
-                                    Add a valid address
-                                </div>
-                                <div>
-                                    <input name="email" type="text" class="text_field">
-                                </div>
-                            </div>
-                            <div style="padding-top: 30px;">
-                                <div height="28" valign="top" class="contact_subject">
-                                    <span class="header_1">Telephone</span><br>
-                                    Add a valid Telephone
-                                </div>
-                                <div>
-                                    <input name="telephone" type="text" class="text_field">
-                                </div>
-                            </div>
-                            <div style="padding-top: 30px;">
-                                <div height="28" valign="top" class="contact_subject">
-                                    <span class="header_1">Message</span><br>
-                                    Communicate with us
-                                </div>
-                                <div>
-                                    <textarea name="message" class="text_area"></textarea>
-                                </div>
-                            </div>
-                            <div style="padding-left: 158px; padding-top: 30px;">
-                                <div valign="top" align="left">
-                                    <%--<input name="submit" type="image" src="images/send_btn.jpg" value="Submit"/>--%>
-                                    <a href="#" onclick="alert('Success');"><img src="images/send_btn.jpg" alt="Submit"/></a>
-                                </div>
-                            </div>
-
-
-                        </div>
-                   <%-- </form>--%>
-
-
+         
+                        <p>
+                        <p>
+                            Email：jadeou99@gmail.com</p>
+                        <p>
+                            Telephone：+86 15666558312</p>
+                        <p>
+                            FAX：(020) 89231279</p>
+                        <div class="map_img">
+                            <img src="images/address.png" width="280" height="193" alt=""/></div>
+                    </div>
 
                 </div>
 
 
 
                 <!-------------------------------------------------------- left box end -------------------------------------------------------->
-            </div>
+            </div>--%>
 
 
 
             <!-------------------------------------------------------- right box start -------------------------------------------------------->
 
 
-            <div class="other_right_box4">
+            <div class="other_right_box4" style="display:none">
                 <div class="content_header">Details</div>
                 <div class="content">
                     <span class="header_1">Toronto Design Inc.</span>
@@ -119,7 +88,7 @@
                 </div>
 
             </div>
-            <div class="other_right_box3">
+            <div class="other_right_box3" style="display:none">
                 <div>
                     <img src="images/vcard_icon.png">
                 </div>
@@ -131,7 +100,7 @@
             </div>
 
 
-            <div class="vertical_divider_7"></div>
+            <div class="vertical_divider_7" style="display:none"></div>
         </div>
     </div>
 

@@ -125,13 +125,203 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="masthead hexagons" style="height: 150px">
+    <div class="masthead hexagons" style="height: 50px">
         <div class="container">
-            <div class="portflio_text"></div>
-            <div class="other_banner_header">Duis eget nisl sit amet eros sagittis</div>
+            <div class="other_banner_header"></div>
             <div class="banner_content"></div>
         </div>
     </div>
+
+    <%--******************************图片导航*******************************************************--%>
+
+    <link rel="stylesheet" type="text/css" href="/Slicebox/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="/Slicebox/css/slicebox.css" />
+    <link rel="stylesheet" type="text/css" href="/Slicebox/css/custom.css" />
+    <script type="text/javascript" src="/Slicebox/js/modernizr.custom.46884.js"></script>
+
+    <div class="container">
+
+        <%--	<div class="codrops-top clearfix">
+				<a href="http://tympanus.net/Development/AutomaticImageMontage/"><span>&laquo; Previous Demo: </span>Automatic Image Montage</a>
+				<span class="right">
+					<a target="_blank" href="http://www.flickr.com/photos/strupler/">Images by <strong>ND Strupler</strong></a>
+					<a href="http://tympanus.net/codrops/?p=5657"><strong>Back to the Codrops Article</strong></a>
+				</span>
+			</div>--%>
+
+        <%--	<h1>Slicebox <span>A fresh 3D image slider with graceful fallback</span></h1>
+			
+			<div class="more">
+				<ul id="sb-examples">
+					<li>More examples:</li>
+					<li class="selected"><a href="index.html">Example 1</a></li>
+					<li><a href="index2.html">Example 2</a></li>
+					<li><a href="index3.html">Example 3</a></li>
+					<li><a href="index4.html">Example 4</a></li>
+				</ul>
+			</div>--%>
+
+        <div class="wrapper">
+
+            <ul id="sb-slider" class="sb-slider">
+                <li>
+                    <a href="/bike/bike1.aspx" target="_blank">
+                        <img src="/images/bike/2002.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KD2610Z-G</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike2.aspx" target="_blank">
+                        <img src="/images/bike/DSC02357.JPG" alt="image2" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KDZ-2610Z-P</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike3.aspx" target="_blank">
+                        <img src="/images/bike/DSC02398.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KDZ-2609Z-G</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike4.aspx" target="_blank">
+                        <img src="/images/bike/DSC02441.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KD2609Z-P</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike5.aspx" target="_blank">
+                        <img src="/images/bike/DSC02455.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KD7004Z</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike6.aspx" target="_blank">
+                        <img src="/images/bike/IMG_0445.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KD7001Z</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike7.aspx" target="_blank">
+                        <img src="/images/bike/IMG_0448.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KD2603Z</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bike/bike8.aspx" target="_blank">
+                        <img src="/images/bike/2002.JPG" alt="image1" width="700" height="400" /></a>
+                    <div class="sb-description">
+                        <h3>KD2608Z</h3>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="shadow" class="shadow"></div>
+
+            <div id="nav-arrows" class="nav-arrows">
+                <a href="#">Next</a>
+                <a href="#">Previous</a>
+            </div>
+
+            <div id="nav-dots" class="nav-dots">
+                <span class="nav-dot-current"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+        <!-- /wrapper -->
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/Slicebox/js/jquery.slicebox.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            var Page = (function () {
+
+                var $navArrows = $('#nav-arrows').hide(),
+                    $navDots = $('#nav-dots').hide(),
+                    $nav = $navDots.children('span'),
+                    $shadow = $('#shadow').hide(),
+                    slicebox = $('#sb-slider').slicebox({
+                        onReady: function () {
+
+                            $navArrows.show();
+                            $navDots.show();
+                            $shadow.show();
+
+                        },
+                        onBeforeChange: function (pos) {
+
+                            $nav.removeClass('nav-dot-current');
+                            $nav.eq(pos).addClass('nav-dot-current');
+
+                        }
+                    }),
+
+                    init = function () {
+
+                        initEvents();
+
+                    },
+                    initEvents = function () {
+
+                        // add navigation events
+                        $navArrows.children(':first').on('click', function () {
+
+                            slicebox.next();
+                            return false;
+
+                        });
+
+                        $navArrows.children(':last').on('click', function () {
+
+                            slicebox.previous();
+                            return false;
+
+                        });
+
+                        $nav.each(function (i) {
+
+                            $(this).on('click', function (event) {
+
+                                var $dot = $(this);
+
+                                if (!slicebox.isActive()) {
+
+                                    $nav.removeClass('nav-dot-current');
+                                    $dot.addClass('nav-dot-current');
+
+                                }
+
+                                slicebox.jump(i + 1);
+                                return false;
+
+                            });
+
+                        });
+
+                    };
+
+                return { init: init };
+
+            })();
+
+            Page.init();
+
+        });
+		</script>
 
     <%--********************************************************************************************--%>
 
@@ -631,27 +821,4 @@
 
     <!--Footer end-->
 
-
-    <%--
-    <!-- 右下角广告 END -->
-
-
-    <!--百度分享 Baidu Button BEGIN -->
-    <script type="text/javascript" id="bdshare_js" data="type=slide&img=0&pos=left"></script>
-    <script type="text/javascript" id="bdshell_js"></script>
-    <script type="text/javascript">
-        var bds_config = { "bdTop": 100 };
-        document.getElementById("bdshell_js").src = "../bdimg.share.baidu.com/static/js/shell_v2.jscdnversion.js" + new Date().getHours();
-    </script>
-    <!-- Baidu Button END -->
-
-    <script type="text/javascript" src="homesite/pro/js/compare.js"></script>
-    <script type="text/javascript" language="javascript">
-        addToCompare("", "");
-    </script>
-    <script type="text/javascript">
-        showNameForCompare();
-        window.setInterval("heartBeat()", 10);
-    </script>
-    <!-- 车型对比  end -->--%>
 </asp:Content>

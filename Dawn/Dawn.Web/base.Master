@@ -20,7 +20,6 @@
     <link href="css/docs.css" rel="stylesheet">
     <link href="css/pygments-manni.css" rel="stylesheet">
 
-
     <!-- CoreOS CSS -->
     <link href="css/coreos.css" rel="stylesheet">
 
@@ -124,8 +123,10 @@
 
     <div class="coreos-footer footer_bg" style="padding:10px; height:100px;">
         <div class="container">
-            <div class="copyright_content" style="color: #d5e4e6;font:  14px 'Decker', Arial, Helvetica, sans-serif;">Copyright © Dawn. All Rights Reserved.</div>
-            <div class="be_our_friend_content" style="color: #d5e4e6;font:  14px 'Decker', Arial, Helvetica, sans-serif;left:720px;">Be our friend</div>
+            <div class="copyright_content" style="color: #d5e4e6;font:  14px 'Decker', Arial, Helvetica, sans-serif;">
+                 <img src="images/ce.jpg" width="32" height="32" style="background-color:transparent;"/>&nbsp;&nbsp;
+                Copyright © Dawn. All Rights Reserved.</div>
+            <div class="be_our_friend_content" style="color: #d5e4e6;font:  14px 'Decker', Arial, Helvetica, sans-serif;left:720px;"></div>
             <div class="twitter_icon"><a href="#">
                 <img src="/images/twitter_icon.png" border="0"></a></div>
             <div class="flickr_icon"><a href="#">
@@ -133,7 +134,7 @@
             <div class="facebook_icon"><a href="#">
                 <img src="/images/facebook_icon.png" border="0"></a></div>
             <p style="padding:5px;">
-                <div class="copyright_content" style="color: #d5e4e6;font:  14px 'Decker', Arial, Helvetica, sans-serif;">Contact US：Tel（135-8031-3381） Email（1147936481@qq.com）</div>
+                <div class="copyright_content" style="color: #d5e4e6;font:  14px 'Decker', Arial, Helvetica, sans-serif;">Contact US：Tel（+86 15666558312） Email（jadeou99@gmail.com）</div>
             </p>
         </div>
     </div>
@@ -141,18 +142,7 @@
 
     <!-- Bootstrap core JavaScript
 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script async="" src="js/analytics.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
-    <script src="js/holder.js"></script>
-
-    <script src="js/application.js"></script>
-
-    <!-- Dependencies for docs.js -->
-    <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
-    <script src="js/jquery.tocify.js"></script>
 
 
 

@@ -61,6 +61,31 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3DGallery\css\demo.css" />
+    <Content Include="3DGallery\css\fonts\BebasNeue-webfont.svg" />
+    <Content Include="3DGallery\css\fonts\Dharma Type Font License.txt" />
+    <Content Include="3DGallery\css\style.css" />
+    <Content Include="3DGallery\images\1.jpg" />
+    <Content Include="3DGallery\images\10.jpg" />
+    <Content Include="3DGallery\images\11.jpg" />
+    <Content Include="3DGallery\images\12.jpg" />
+    <Content Include="3DGallery\images\2.jpg" />
+    <Content Include="3DGallery\images\3.jpg" />
+    <Content Include="3DGallery\images\4.jpg" />
+    <Content Include="3DGallery\images\5.jpg" />
+    <Content Include="3DGallery\images\6.jpg" />
+    <Content Include="3DGallery\images\7.jpg" />
+    <Content Include="3DGallery\images\8.jpg" />
+    <Content Include="3DGallery\images\9.jpg" />
+    <Content Include="3DGallery\images\arrows.png" />
+    <Content Include="3DGallery\images\bg.jpg" />
+    <Content Include="3DGallery\images\browser.png" />
+    <Content Include="3DGallery\images\ImageAttribution.txt" />
+    <Content Include="3DGallery\index.html" />
+    <Content Include="3DGallery\index2.html" />
+    <Content Include="3DGallery\index3.html" />
+    <Content Include="3DGallery\js\jquery.gallery.js" />
+    <Content Include="3DGallery\js\modernizr.custom.53451.js" />
     <Content Include="bike\bike1.aspx" />
     <Content Include="bike\bike2.aspx" />
     <Content Include="bike\bike3.aspx" />
@@ -230,6 +255,27 @@
     <Content Include="js\_class.noobSlide.packed.js" />
     <Content Include="list.aspx" />
     <Content Include="js\unitpngfix.js" />
+    <Content Include="Slicebox\css\custom.css" />
+    <Content Include="Slicebox\css\demo.css" />
+    <Content Include="Slicebox\css\slicebox.css" />
+    <Content Include="Slicebox\images\1.jpg" />
+    <Content Include="Slicebox\images\2.jpg" />
+    <Content Include="Slicebox\images\3.jpg" />
+    <Content Include="Slicebox\images\4.jpg" />
+    <Content Include="Slicebox\images\5.jpg" />
+    <Content Include="Slicebox\images\6.jpg" />
+    <Content Include="Slicebox\images\7.jpg" />
+    <Content Include="Slicebox\images\fancy_deboss.png" />
+    <Content Include="Slicebox\images\nav.png" />
+    <Content Include="Slicebox\images\options.png" />
+    <Content Include="Slicebox\images\shadow.png" />
+    <Content Include="Slicebox\index.html" />
+    <Content Include="Slicebox\index2.html" />
+    <Content Include="Slicebox\index3.html" />
+    <Content Include="Slicebox\index4.html" />
+    <Content Include="Slicebox\js\jquery.slicebox.js" />
+    <Content Include="Slicebox\js\modernizr.custom.46884.js" />
+    <Content Include="Slicebox\ReadMe.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -335,6 +381,10 @@
   <ItemGroup>
     <Content Include="base.Master" />
     <Content Include="content\doc\bikeinfo.xls" />
+    <Content Include="3DGallery\css\fonts\BebasNeue-webfont.eot" />
+    <Content Include="3DGallery\css\fonts\BebasNeue-webfont.ttf" />
+    <Content Include="3DGallery\css\fonts\BebasNeue-webfont.woff" />
+    <Content Include="3DGallery\images\Thumbs.db" />
     <None Include="css\Descr.WD3" />
     <None Include="images\Descr.WD3" />
     <None Include="images\slider_images\Descr.WD3" />
@@ -344,6 +394,11 @@
     <None Include="js\Plug\jBox\MIT-LICENSE" />
     <None Include="js\Plug\jBox\Skins\Default\Desktop.ini" />
     <None Include="js\Plug\jBox\Skins\Green\Desktop.ini" />
+    <Content Include="Slicebox\.DS_Store" />
+    <Content Include="Slicebox\css\.DS_Store" />
+    <Content Include="Slicebox\images\.DS_Store" />
+    <Content Include="Slicebox\images\Thumbs.db" />
+    <Content Include="Slicebox\js\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="js\Plug\jBox\Skins2\Blue\images\" />
