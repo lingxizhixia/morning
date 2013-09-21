@@ -35,9 +35,9 @@
         <div class="container">
 
             	<header>
-				<h1>Name <span>: Joanna</span></h1>
-				<h1>Email <span>: jadeou99@gmail.com</span></h1>
-                    <h1>Telephone <span>: +86 15666558312</span></h1>
+				<h1>Name : <span style="color:orange"> Joanna</span></h1>
+				<h1>Email : <span style="color:orange">jadeou99@gmail.com</span></h1>
+                    <h1>Telephone : <span style="color:orange">+86 15666558312</span></h1>
                     <br />
                      <div class="map_img">
                             <img src="images/address.png" width="280" height="204" alt=""/></div>

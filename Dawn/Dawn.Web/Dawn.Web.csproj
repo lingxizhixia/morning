@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Dawn.Web</RootNamespace>
     <AssemblyName>Dawn.Web</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -24,6 +24,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,7 +47,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -115,8 +115,7 @@
     <Content Include="images\bike\IMG_0448.JPG" />
     <Content Include="images\bike\N12.png" />
     <Content Include="images\bike\N28.jpg" />
-    <Content Include="images\downdoc.png" />
-    <Content Include="images\favicon.ico" />
+    <Content Include="images\ce.jpg" />
     <Content Include="js\bike\homesite_head_js.js" />
     <Content Include="js\bike\jquery.kinslideshow-1.2.1.min.js" />
     <Content Include="js\bike\m.js" />
@@ -133,7 +132,6 @@
     <Content Include="detail.aspx" />
     <Content Include="home.aspx" />
     <Content Include="images\about_img_frame.png" />
-    <Content Include="images\about_text.png" />
     <Content Include="images\address.png" />
     <Content Include="images\apple-touch-icon-114-precomposed.png" />
     <Content Include="images\apple-touch-icon-144-precomposed.png" />
@@ -143,63 +141,26 @@
     <Content Include="images\banner_other_bg.jpg" />
     <Content Include="images\bb.jpg" />
     <Content Include="images\blog_img_frame.png" />
-    <Content Include="images\blog_text.png" />
-    <Content Include="images\browser_img.jpg" />
     <Content Include="images\comp_screen.png" />
-    <Content Include="images\contact_text.png" />
     <Content Include="images\copyright_band_bg.jpg" />
     <Content Include="images\coreos-mark-30px.png" />
-    <Content Include="images\cup_icon.png" />
     <Content Include="images\divider.jpg" />
     <Content Include="images\facebook_icon.png" />
     <Content Include="images\flickr_icon.png" />
     <Content Include="images\footer_bg.jpg" />
-    <Content Include="images\get_quote_btn.png" />
-    <Content Include="images\hello_text.png" />
-    <Content Include="images\img_01.jpg" />
-    <Content Include="images\img_02.jpg" />
-    <Content Include="images\img_03.jpg" />
-    <Content Include="images\img_04.jpg" />
-    <Content Include="images\img_05.jpg" />
-    <Content Include="images\logo.png" />
     <Content Include="images\main_bg_highlight.jpg" />
     <Content Include="images\map.jpg" />
     <Content Include="images\map_img_frame.png" />
     <Content Include="images\pagination_btn_bg.jpg" />
     <Content Include="images\portfolio_img_frame.png" />
-    <Content Include="images\portfolio_text.png" />
-    <Content Include="images\products\bike1.png" />
-    <Content Include="images\products\bike2.png" />
-    <Content Include="images\products\bike3.png" />
-    <Content Include="images\products\bike4.png" />
-    <Content Include="images\products\bike5.png" />
-    <Content Include="images\products\bike6.png" />
-    <Content Include="images\products\bike7.png" />
-    <Content Include="images\products\bike8.png" />
-    <Content Include="images\products\work_01.jpg" />
-    <Content Include="images\products\work_02.jpg" />
-    <Content Include="images\products\work_03.jpg" />
-    <Content Include="images\products\work_04.jpg" />
-    <Content Include="images\products\work_05.jpg" />
-    <Content Include="images\products\work_06.jpg" />
-    <Content Include="images\products\work_07.jpg" />
-    <Content Include="images\products\work_08.jpg" />
-    <Content Include="images\products\work_09.jpg" />
     <Content Include="images\search_bg.jpg" />
     <Content Include="images\send_btn.jpg" />
     <Content Include="images\services_img_frame.png" />
     <Content Include="images\services_text.png" />
     <Content Include="images\slider_btn.png" />
-    <Content Include="images\slider_images\img1.jpg" />
-    <Content Include="images\slider_images\img2.jpg" />
-    <Content Include="images\slider_images\img3.jpg" />
-    <Content Include="images\slider_images\img4.jpg" />
-    <Content Include="images\slider_images\img5.jpg" />
     <Content Include="images\text_field_prop.jpg" />
     <Content Include="images\top_bg.jpg" />
     <Content Include="images\twitter_icon.png" />
-    <Content Include="images\upload\56df10b8-91c1-4532-838a-7af73c028d26_2000x1365.jpg" />
-    <Content Include="images\upload\56df10b8-91c1-4532-838a-7af73c028d26_500x340.jpg" />
     <Content Include="images\vcard_icon.png" />
     <Content Include="images\vertical_divider.jpg" />
     <Content Include="js\analytics.js" />
@@ -254,7 +215,6 @@
     <Content Include="js\Plug\jBox\update.txt" />
     <Content Include="js\_class.noobSlide.packed.js" />
     <Content Include="list.aspx" />
-    <Content Include="js\unitpngfix.js" />
     <Content Include="Slicebox\css\custom.css" />
     <Content Include="Slicebox\css\demo.css" />
     <Content Include="Slicebox\css\slicebox.css" />
@@ -384,11 +344,7 @@
     <Content Include="3DGallery\css\fonts\BebasNeue-webfont.eot" />
     <Content Include="3DGallery\css\fonts\BebasNeue-webfont.ttf" />
     <Content Include="3DGallery\css\fonts\BebasNeue-webfont.woff" />
-    <Content Include="3DGallery\images\Thumbs.db" />
     <None Include="css\Descr.WD3" />
-    <None Include="images\Descr.WD3" />
-    <None Include="images\slider_images\Descr.WD3" />
-    <None Include="images\Thumbs.db" />
     <None Include="js\Descr.WD3" />
     <None Include="js\Plug\jBox\LGPL-LICENSE" />
     <None Include="js\Plug\jBox\MIT-LICENSE" />
@@ -397,8 +353,8 @@
     <Content Include="Slicebox\.DS_Store" />
     <Content Include="Slicebox\css\.DS_Store" />
     <Content Include="Slicebox\images\.DS_Store" />
-    <Content Include="Slicebox\images\Thumbs.db" />
     <Content Include="Slicebox\js\.DS_Store" />
+    <None Include="Properties\PublishProfiles\app.config.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="js\Plug\jBox\Skins2\Blue\images\" />
